@@ -135,6 +135,10 @@ a{
 .contacto .item h5{
     color: rgb(243, 132, 11);
 }
+.contacto h6{
+    font-weight: bold;
+    color: rgb(243, 132, 11);
+}
 
 .resumen p{
     font-weight: 400;
