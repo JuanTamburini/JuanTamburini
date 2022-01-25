@@ -49,13 +49,13 @@ a{
 .container .col-izq {
     position: relative;
     background: #fff;
-    padding: 50px;
+    padding: 50px 50px 20px 50px;
 }
 
 .container .col-der {
     position: relative;
     background: #fff;
-    padding: 50px;
+    padding: 50px 50px 20px 50px;
 }
 
 .perfil{
@@ -175,4 +175,12 @@ a{
 .experiencia .item .child-item img{
     width:22px;
     height:22px
+}
+
+.water-mark{
+    position: absolute;
+    left: 200px;    
+    bottom: 0;
+    opacity: .5;
+    
 }
