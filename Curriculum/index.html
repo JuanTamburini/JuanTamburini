@@ -12,13 +12,13 @@
 
             <!-- Columna Izquierda -->
             <div class="col-izq">
-                <!-- Perfil -->
-                <div class="perfil"> 
-                    <div class="perfil-img">
-                        <img src="img.jpg">
-                    </div>
-                    
-                </div>
+
+                <!-- Foto de Perfil -->
+                        <div class="perfil-img">
+                            <img src="img.jpg">
+                        </div>
+                        
+
                 <!-- Contacto -->
                 <div class="contacto">
                     <h4>
@@ -35,20 +35,24 @@
                             <span class="texto">11 3479 0486</span>
                         </li>
                         <li>
-                            <span class="icono"><i class="fab fa-linkedin"></i></span>
-                            <span class="texto">linkedin/in/juantamburini/</span>
-                            
+                            <a href="https://www.linkedin.com/in/juantamburini/">
+                                <span class="icono"><i class="fab fa-linkedin"></i></span>
+                                <span class="texto">linkedin/in/juantamburini</span>
+                            </a>
                         </li>
                         <li>
-                            <span class="icono"><i class="fab fa-github-square"></i></span>
-                            <span class="texto">github.com/JuanTamburini</span>
+                            <a href="https://github.com/JuanTamburini/">
+                                <span class="icono"><i class="fab fa-github-square"></i></span>
+                                <span class="texto">github.com/JuanTamburini</span>
+                            </a>
                         </li>
                     </ul>
                 </div>
+
                 <!-- Tecnologias -->
                 <div class="contacto">
                     <h4>
-                        TECNOLOGIAS
+                        TECNOLOGIAS CONOCIDAS
                     </h4>
                     <ul>
                         <li>
@@ -57,7 +61,7 @@
                             
                         </li>
                         <li>
-                            <span class="icono"><i class="fab fa-css3-alt"></i><i class="fab fa-sass"></i></span>
+                            <span class="icono"><i class="fab fa-css3-alt"></i></span>
                             <span class="texto">CSS, SCSS, Sass</span>
                         </li>
                         <li>
@@ -92,7 +96,28 @@
                     </ul>
                 </div>
 
+                <!-- Certificaciones -->
+                <div class="contacto">
+                    <h4>
+                        CERTIFICACIONES
+                    </h4>
+                        <ul>
+                            <li>
+                                <span>Argentina Programa</span>
+                                <span>SeProgramar, Ministerio de Desarrollo</span>
+                            </li>
+                            <li>
+                                <span>Diseño Web con Bootstrap</span>
+                                <span>Universidad Austral</span>
+                            </li>
+                            <li>
+                                <span>La Web empieza aquí: Typescript, Angular, Firebase</span>
+                                <span>Udemy</span>
+                            </li>
+                        </ul>
+                </div>
             </div>
+
             <!-- Columna Derecha -->
             <div class="col-der">
 
@@ -101,47 +126,48 @@
                         Juan Bautista Tamburini
                     </h1>
                     <span>
-                        Programador Jr.
+                        Programador Web Jr.
                     </span>
                 </div>
                 <!-- Resumen -->
-                <div>
+                <div class="resumen">
                     <h4>
                         SOBRE MI
                     </h4>
-                    <p>
-                        Estudiante de carrera informática de 23 años. 
-                        Manejo de inglés fluido y con conocimientos 
-                        de programación Front End (aplicaciones angular)
-                        y backend (apiRest, CRUD en Python)
-                    </p>
+                    <div class="item"> 
+                        <p>
+                            Estudiante de carrera informática de 23 años. 
+                            Manejo de inglés fluido y con conocimientos 
+                            de programación Front End (aplicaciones angular)
+                            y backend (apiRest, CRUD en Python)
+                        </p>
+                        <p>Objetivo:</p>
+                        <p>
+                            Integrarme a un equipo de trabajo el cual me brinde 
+                            las herramientas para desarrollarme profesionalmente 
+                            y me enseñe la dinámica y métodos de trabajo del mismo.
+                             Adquirir conocimientos para en un futuro estar a cargo 
+                            de un equipo de trabajo
+                        </p>
+                    </div>
                 </div>
-                <!-- Objetivo -->
-                <div>
-                    <h4>
-                        OBJETIVO
-                    </h4>
-                    <p>
-                        Integrarme a un equipo de trabajo el cual me brinde 
-                        las herramientas para desarrollarme profesionalmente 
-                        y me enseñe la dinámica y métodos de trabajo del mismo.
-                         Adquirir conocimientos para en un futuro estar a cargo 
-                        de un equipo de trabajo
-                    </p>
-                </div>
+
                 <!-- Experiencia -->
-                <div>
+                <div class="experiencia">
                     <h4>
-                        Trabajos Previos
+                        EXPERIENCIA
                     </h4>
                     <!-- Primer Item -->
-                    <div>
+                    <div class="item">
                         <h5>
-                            Asistente IT
+                            ASISTENTE IT
                         </h5>
-                        <h6>
-                            ESTUDIO TREUER, UOCRA
-                        </h6>
+                        <div class="child-item">
+                            <h6>
+                                Estudio Treuer, UOCRA
+                            </h6>
+                            <span>octubre 2018 - octubre 2021</span>
+                        </div>
                         <p>
                             Instalar, configurar y actualizar software. 
                             Mantenimiento de equipos y redes. Soporte a empleados. 
@@ -150,60 +176,62 @@
                         </p>
                     </div>
                     <!-- Segundo Item -->
-                    <div>
+                    <div class="item">
                         <h5>
-                            Administrador E-commerce
+                            ADMINISTRADOR E-COMMERCE
                         </h5>
-                        <h6>
-                            LIBRERIA MILLER
-                        </h6>
+                        <div class="child-item">
+                            <h6>
+                                Libreria Miller
+                            </h6>
+                            <span>junio 2017 - febrero 2018</span>
+                        </div>
                         <p>
-                            Administracón de todos los puntos de venta digitales
+                            Administracón de todos los puntos de venta digitales. 
                             Publicación de productos
                             Atención al cliente
                         </p>
                     </div>
                 </div>
+
                 <!-- Estudios -->
-                <div>
+                <div class="experiencia">
                     <h4>
-                        Estudios
+                        ESTUDIOS
                     </h4>
                     <!-- Primer Item -->
-                    <div>
+                    <div class="item">
                         <h5>
-                            Licenciatura en Ciencias de Datos
+                            CIENCIAS DE DATOS
                         </h5>
-                        <h6>
-                            UBA, EXACTAS 
-                        </h6>
+                        <div class="child-item">
+                            
+                            <h6>
+                                <img src="UBA.png">
+                                Universidad de Buenos Aires 
+                            </h6> 
+                            <span>Actualidad</span>
+                        </div>
+                        <p>Cursando el segundo año de la carrera, con CBC completo y dos materias mas aprobadas</p>
+                        
                     </div>
                     <!-- Segundo item -->
-                    <div>
+                    <div class="item">
                         <h5>
-                            Bachiller, mencion en inglés
+                            BACHILLER
                         </h5>
-                        <h6>
-                            ENS 2 MARIANO ACOSTA
-                        </h6>
+                        <div class="child-item">
+                            <h6>
+                                <img src="escudo.gif" alt="">
+                                Colegio Normal Superior Mariano Acosta
+                            </h6>
+                            <span>2012 - 2018</span>
+                        </div>
+                        <p>Secundario completo con especialización en idioma Inglés y en Matemáticas</p>
                     </div>
                 </div>
-                <!-- Certificaciones -->
-                <div>
-                    <h4>
-                        Certificaciones
-                    </h4>
-                    <p>
-                        Argentina Programa, #SeProgramar. Ministerio de Desarrollo
-                    </p>
-                    <p>
-                        Diseño Web con Bootstrap. Universidad Austral
-                    </p>
-                    <p>
-                        La Web empieza aquí: Typescript, Angular, Firebase. Udemy
-                    </p>
-                </div>
             </div>
+                
     </div>
 </body>
 </html>

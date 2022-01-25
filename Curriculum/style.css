@@ -6,17 +6,33 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background: rgb(247, 159, 65);
     min-height: 100vh;
     font-family: Poppins, sans-serif;
 }
 
  h4 {
     font-size: 1.12em;
+}
+ h5, h6{
+    margin: 0;
+    padding: 0;
+}
+h5{
+    font-size: 1.06em;
+}
+h6{
+ font-size: 1em;
+ font-weight: 500;
+}
 
-} 
 
 p, li {
     color: #020202;
+}
+a{
+    text-decoration: none;
+    color: #000;
 }
 
 .container{
@@ -25,7 +41,6 @@ p, li {
     max-width: 1000px;
     min-height: 1000px;
     background: #fff;
-    margin: 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0px 35px 50px rgba(0, 0, 0,0.1);
@@ -47,20 +62,31 @@ p, li {
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
+    align-items: left;
+    padding-bottom: 41px;
+    margin-bottom: 60px;
+}
+.perfil h1{
+    color: rgb(243, 132, 11);
+    font-size: 3em;
+    font-weight: 900;
+    text-align: left;
+    line-height: 1.4em;
+    margin-bottom: 20px;
 }
 
 .perfil-img{
     position: relative;
-    width: 200px;
-    height: 200;
+    margin-bottom: 60px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
-    overflow: hidden;   
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    align-items: center;
+    overflow: hidden;
+
 }
 
-.perfil .perfil-img img{
+.perfil-img img{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -69,16 +95,15 @@ p, li {
     object-fit: cover;
 }
 
-.perfil h1{
-    color: rgb(243, 132, 11);
-    font-size: 3em;
-    font-weight: 900;
-    text-align: center;
-    line-height: 1.4em;
+.item {
+    padding-left: 25px;
+    text-align: left;
 }
+
 .contacto{
-    margin-top: 50px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    margin-top: 40px;
+    border-bottom: 1px solid #bebbbb;
 }
 .contacto h4{
     font-size: 1.12em;
@@ -98,8 +123,52 @@ p, li {
     display: inline-block;
     color: rgb(243, 132, 11);
     width: 30px;
-    font-size: 18px;
+    font-size: 28px;
 }
 .contacto ul li span {
-    font-weight: 300;
+    font-weight: 400
+}
+.contacto .item {
+    position: relative;
+    padding: 30px 0 0 0;
+}
+.contacto .item h5{
+    color: rgb(243, 132, 11);
+}
+
+.resumen p{
+    font-weight: 400;
+    color: #4a4a4a;
+}
+
+.experiencia {
+    margin-top: 50px;
+}
+.experiencia .item {
+    padding-bottom: 15px;
+}
+.experiencia .item h5 {
+    color: rgb(243, 132, 11);
+    padding-bottom: 6px
+}
+
+.experiencia .item p{
+    color: #4a4a4a;
+}
+
+.experiencia .item .child-item{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #bebbbb;
+}
+
+.experiencia .item .child-item span {
+    font-style: italic;
+    font-weight: lighter;
+    color: #4a4a4a;
+}
+
+.experiencia .item .child-item img{
+    width:22px;
+    height:22px
 }
