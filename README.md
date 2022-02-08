@@ -1,7 +1,7 @@
-👋 Hola, soy @JuanTamburini, tengo 23 años y soy argentino
-👀 Me estoy formando como fullstack developer 
-🌱 Actualmente estoy aprendiendo ReactJS y Django
-📫 Puedes contactarme en LinkedIn clickeando el siguiente link www.linkedin.com/in/juantamburini/
+- 👋 Hola, soy @JuanTamburini, tengo 23 años y soy argentino
+- 👀 Me estoy formando como fullstack developer 
+- 🌱 Actualmente estoy aprendiendo ReactJS y Django
+- 📫 Puedes contactarme en LinkedIn clickeando el siguiente link www.linkedin.com/in/juantamburini/
    o tambien a mi mail jbtamburini@gmail.com
 
 <!---
